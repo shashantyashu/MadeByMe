@@ -1,6 +1,7 @@
 body{
     background-image: url("study2_img.jpg");
-    background-size:cover;           
+    background-size:cover;   
+    overflow: hidden;        
 }
 .head{
     height: 100px;
@@ -12,6 +13,9 @@ body{
     color: bisque;
     font-size: 20px;       
 }
+#mail:hover{
+    color: yellow;
+}
 .head a{
     text-decoration: none;
     color: aliceblue;
@@ -19,6 +23,13 @@ body{
     left: 1100px;
     top: 30px;
     margin-right: 18px;
+}
+#icon {
+    background-color: rgba(255, 255, 0, 0.443);
+    border-radius: 50%;
+}
+#icon:hover{
+    background-color: yellow;
 }
 .head img{
     height: 30px;
@@ -87,39 +98,48 @@ body{
 .tail{
     height: 150px;
     width: 1387px;
+    display: flex;
+    margin-left: 130px;
 }
 .card{
     
     width:8rem;
-    height: 150px;
+    height: 130px;
     position: relative;
     left: 450px;  
     border-radius: 10px; 
+    
 }
 .card:hover{
     background-color: rgba(255, 255, 0, 0.269);
 }
 .utube_bg{
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     background-color:rgba(250, 235, 215, 0.516);
     position:absolute; 
-    top: 3px; 
-    left: 25px;
+    top: 15px; 
+    left: 34px;
     border-radius: 50%;   
 }
 .card-img-top{
-    height: 30px;
+    height: 20px;
     position: relative;
-    top: 24px;
-    left: 18px;
+    top: 20px;
+    left: 15px;
 
+}
+.card-img-top-add{
+    height: 40px;
+    position: relative;
+    top: 12px;
+    left: 10px;
 }
 .card-body{
      position: relative;
-     top: 100px;
+     top: 80px;
      text-align: center;
-     color: rgb(54, 30, 1);
+     color: white;
 }
 .card-body:hover{
     color:bisque ;
