@@ -1,145 +1,150 @@
 body{
     background-image: url("study2_img.jpg");
-    background-size:cover;   
-    overflow: hidden;        
+    background-repeat: no-repeat;
+    background-size: 5120px 2234px; 
+    overflow: hidden;  
 }
-.head{
-    height: 100px;
-    width: 1387px;
-}
-#mail{
-    position:relative;
-    top: 20px;
-    color: bisque;
-    font-size: 20px;       
-}
-#mail:hover{
-    color: yellow;
-}
-.head a{
-    text-decoration: none;
-    color: aliceblue;
+
+
+.nav{
+    color:antiquewhite;
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 70px;
     position: relative;
-    left: 1100px;
-    top: 30px;
-    margin-right: 18px;
+    top: 39px;
+    left: 4000px;
+    bottom: 15px;
+    text-decoration: none;
 }
-#icon {
-    background-color: rgba(255, 255, 0, 0.443);
+.nav:hover{
+    color:#FFC47E;
+}
+.navi{
+    position: relative;
+    left: 4000px;
+    margin-left: 70px;
+    top: 60px;
+}
+.navi_bg{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.nav_d{
+    display: inline-block;
+    /* background-color:antiquewhite; */
+    position: relative;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
 }
-#icon:hover{
-    background-color: yellow;
-}
-.head img{
-    height: 30px;
+.nav_d:hover{
+    background-color: #FFC47E;
 }
 
 
 
 
-.mid{
-    height: 300px;
-    width: 1387px;
-    margin-top: 14px;
-}
 .mid h1{
+    color:antiquewhite;
+    font-size: 400px;
     position: relative;
-    /* left: 550px; */
-    font-size: 100px;
-    color:rgba(255, 255, 0, 0.735);
-    bottom: 40px;
-    width: 1387px;
-    text-align: center;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    left: 2000px;
+    top: 90px;
 }
 .sear_bar{
-    width: 700px;
+    width: 2250px;
+    height: 180px;
     position: relative;
-    left: 350px;
-    bottom: 50px;
+    left: 1420px;
+    top: 15px;
     background-color: white;
-    border-radius: 25px
+    border-radius: 100px;
 }
 .sear_icon{
     position: relative;
-    top: 3px;
-    left: 20px;
-    height: 25px;
+    bottom: 5px;
+    left: 80px;
+    height: 80px;
 
 }
 #search_bar{
     position: relative;
-    bottom: 5px;
-    left: 30px;
-    height: 45px;
-    width: 500px;
+    bottom: 20px;
+    left: 140px;
+    height: 140px;
+    width: 1300px;
     border-radius: 25px;
     border: none;
     outline: none;
-    font-size: 1.3rem;
+    font-size: 4.5rem;
 }
 .google_l{
     position: relative;
-    top: 8px;
-    left: 70px;
-    height: 38px;
+    top: 27px;
+    left: 590px;
+    height: 139px;
 }
 .google_v{
     position: relative;
-    top: 3px;
-    left: 50px;
-    height: 25px;
+    bottom: 5px;
+    left: 560px;
+    height: 75px;
 }
-
-
 
 
 .tail{
-    height: 150px;
-    width: 1387px;
+    height: 750px;
+    width: 5387px;
     display: flex;
+    position: relative;
+    top: 80px;
     margin-left: 130px;
+}
+.tail a {
+    text-decoration: none;
 }
 .card{
     
-    width:8rem;
-    height: 130px;
+    width:28rem;
+    height: 450px;
     position: relative;
-    left: 450px;  
-    border-radius: 10px; 
+    left: 1950px;  
+    border-radius: 30px; 
     
 }
 .card:hover{
     background-color: rgba(255, 255, 0, 0.269);
 }
 .utube_bg{
-    height: 60px;
-    width: 60px;
+    height: 180px;
+    width: 180px;
     background-color:rgba(250, 235, 215, 0.516);
     position:absolute; 
-    top: 15px; 
-    left: 34px;
+    top: 65px; 
+    left: 140px;
     border-radius: 50%;   
 }
 .card-img-top{
-    height: 20px;
+    height: 60px;
     position: relative;
-    top: 20px;
-    left: 15px;
+    top: 60px;
+    left: 45px;
 
 }
 .card-img-top-add{
-    height: 40px;
+    height: 80px;
     position: relative;
-    top: 12px;
-    left: 10px;
+    top: 52px;
+    left: 50px;
 }
 .card-body{
      position: relative;
-     top: 80px;
+     top: 290px;
      text-align: center;
      color: white;
+     font-size: 55px;
 }
 .card-body:hover{
     color:bisque ;
@@ -148,6 +153,5 @@ body{
 
 
 .yash img{
-    height: 20px;
+    height: 100px;
 }
-

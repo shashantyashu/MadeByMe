@@ -1,53 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.css">
-  <link rel="icon" href="icone-chrome.png">
-  <title>New Tab</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Tab</title>
+    <link rel="icon" href="icone-chrome.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
 </head>
 <body>
-  <div class="head">
-    <a href="#" id="mail">Gmail</a>
-    <a href="#" id="mail">Images</a>
-    <a href="#"><img src="expri_icon.png" alt="icon" id="icon"></a>
-    <a href="#"><img src="apps_icon.png" alt="icon" id="icon"></a>
-    <a href="#"><img src="account_icon.png" alt="icon" id="icon"></a>
-  </div>
-
-
-  <div class="mid">
-    <br>
-    <h1>Google</h1>
-    <div class="sear_bar">
-      <img src="search_icon.png" alt="icon" class="sear_icon">
-      <input type="text" id="search_bar">
-      <img src="voice_search3.png" alt="icon" class="google_v">
-      <img src="google_lens.png" alt="icon" class="google_l">
-    </div>
-  </div>
-
-
-  <div class="tail">
-    <div class="card">
-      <div class="utube_bg">
-        <img src="youtube_icon.png" class="card-img-top" alt="...">
-      </div>
-      <div class="card-body">
-        <p class="card-text">Youtube</p>
-      </div>
+    <div class="head">
+        <a href="#" class="nav"><h1>Gmail</h1></a>
+        <a href="#" class="nav"><h1>Image</h1></a>
+        <a href="#" class="navi"><div class="nav_d"><img src="expri_icon.png" alt="icon" class="navi_bg"></div></a>
+        <a href="#" class="navi"><div class="nav_d"><img src="apps_icon.png" alt="icon" class="navi_bg"></div></a>
+        <a href="#" class="navi"><div class="nav_d"><img src="account_icon.png" alt="icon" class="navi_bg"></div></a>
+        
     </div>
 
-    <div class="card">
-      <div class="utube_bg">
-        <img src="add_icon.png" class="card-img-top-add" alt="...">
-      </div>
-      <div class="card-body">
-        <p class="card-text">Add Shortcut</p>
-      </div>
+    <div class="mid">
+        <h1>Google</h1>
+        <div class="sear_bar">
+            <img src="search_icon.png" alt="icon" class="sear_icon">
+            <input type="text" id="search_bar" placeholder="Search Google or type a URL">
+            <img src="voice_search3.png" alt="icon" class="google_v">
+            <img src="google_lens.png" alt="icon" class="google_l">
+          </div>
     </div>
-  </div> 
-  <div class="yash"><img src="yash.png" alt="sign"></div>
+
+    <div class="tail">
+      <a href="https://www.youtube.com/">
+        <div class="card">
+          <div class="utube_bg">
+           <img src="youtube_icon.png" class="card-img-top" alt="...">
+          </div>
+          <div class="card-body">
+            <p class="card-text">Youtube</p>
+          </div>
+        </div>
+      </a>
+    
+      <a href="https://www.youtube.com">
+        <div class="card">
+          <div class="utube_bg">
+            <img src="add_icon.png" class="card-img-top-add" alt="...">
+          </div>
+          <div class="card-body">
+            <p class="card-text">Add Shortcut</p>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="yash">
+        <img src="yash.png" alt="sign">
+    </div>
 </body>
-</html>
+</html
