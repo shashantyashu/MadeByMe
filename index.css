@@ -115,7 +115,7 @@ body{
     
 }
 .card:hover{
-    background-color: rgba(255, 255, 0, 0.269);
+    background-color: rgba(255, 255, 0, 0.075);
 }
 .utube_bg{
     height: 180px;
